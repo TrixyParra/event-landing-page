@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.fa-brands {
+    color: black;
+}
+
 @media (min-width: 576) {
     .cards {
         display: flex;
