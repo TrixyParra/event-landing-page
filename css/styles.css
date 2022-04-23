@@ -7,7 +7,7 @@
 }
 
 @media (min-width: 576) {
-    .cards {
+    .card {
         display: flex;
         flex-flow: row wrap;
     }
