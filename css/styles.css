@@ -6,10 +6,3 @@
     color: black;
 }
 
-@media (min-width: 576) {
-    .card {
-        display: flex;
-        flex-flow: row wrap;
-    }
-
-}
