@@ -13,7 +13,7 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-light border-bottom py-3">
+  <nav class="navbar sticky-top navbar-light bg-white border-bottom py-3">
     <div class="container-fluid">
       <a class="navbar-brand fs-4 ms-3" href="#">Moqups</a>
         <!-- <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="40" height="35" class="d-inline-block align-text-top"> Moqups</a> -->
@@ -36,9 +36,9 @@
     <button type="button" class="btn btn-dark btn-lg my-4">GET THE TICKET</button>
   </header>
 
-  <!-- The Speakers -->
+  <!-- Intro to Speakers -->
   <section id="speakers"></section>
-    <div class="container">
+    <div class="container-fluid">
       <div class="intro text-center my-5">
         <h2 class="py-3">The Speakers</h2>
         <p class="pb-3">
@@ -48,9 +48,8 @@
 
       <!-- Featured Speakers -->
       <div class="row">
-      <!-- <div class="card-deck d-flex ms-3 me-3 my-5"> -->
-        <div class="col-12 col-lg-3">
-          <div class="card h-200 pb-3 mx-3">
+        <div class="col-12 col-md-6 col-lg-3 mt-3">
+          <div class="card h-200 pb-3">
             <img src="img/sample.jpg" class="card-img-top img-fluid" alt="Sample Image">
             <div class="card-body">
               <h5 class="card-title">Ruby Jennings</h5>
@@ -63,8 +62,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-3 mt-3">
-          <div class="card h-200 pb-3 mx-3">
+        <div class="col-12 col-md-6 col-lg-3 mt-3">
+          <div class="card h-200 pb-3">
             <img src="img/sample.jpg" class="card-img-top img-fluid" alt="Sample Image">
             <div class="card-body">
               <h5 class="card-title">Leon Hanson</h5>
@@ -77,8 +76,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-3 mt-3">
-          <div class="card h-200 pb-3 mx-3">
+        <div class="col-12 col-md-6 col-lg-3 mt-3">
+          <div class="card h-200 pb-3">
             <img src="img/sample.jpg" class="card-img-top img-fluid" alt="Sample Image">
             <div class="card-body">
               <h5 class="card-title">Megan Stone</h5>
@@ -91,8 +90,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-3 mt-3 mb-5">
-          <div class="card h-200 pb-3 mx-3">
+        <div class="col-12 col-md-6 col-lg-3 mt-3 mb-5">
+          <div class="card h-200 pb-3">
             <img src="img/sample.jpg" class="card-img-top img-fluid" alt="Sample Image">
             <div class="card-body">
               <h5 class="card-title">Willie Perkins</h5>
@@ -105,7 +104,6 @@
             </div>
           </div>
         </div>
-      <!-- </div> -->
       </div>
     </div>
   </section>
@@ -130,7 +128,7 @@
         <div class="col-lg">
           <h3>The Venue</h3>
           <p class="my-5">Our event will be held at the <b>Main Office headquarters at Provost & East Building 145 City Road, London.</b></p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.225592083683!2d-0.09051338479886105!3d51.527422017060935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca677700001%3A0x5a93e14c51f1ea92!2s145%20Provost%20St%2C%20City%20Rd%2C%20London%20EC1V%201AZ%2C%20UK!5e0!3m2!1sen!2sus!4v1650608580583!5m2!1sen!2sus" width="530" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.225592083683!2d-0.09051338479886105!3d51.527422017060935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca677700001%3A0x5a93e14c51f1ea92!2s145%20Provost%20St%2C%20City%20Rd%2C%20London%20EC1V%201AZ%2C%20UK!5e0!3m2!1sen!2sus!4v1650608580583!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="col-lg">
           <img src="img/grey.jpg" class="img-fluid" style="height: 478px; width: 100%;" alt="Sample Image">
@@ -141,14 +139,14 @@
 
   <!-- Footer -->
   <footer class="container-fluid border-top">
-    <div class="row justify-content-between align-items-center">  <!-- d-flex flex-wrap -->
-      <div class="col-md-4 mx-3 my-4">
-        <a class="px-3" href="https://twitter.com"><i class="fa-brands fa-twitter fa-xl"></i></a>
-        <a class="pe-3" href="https://instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
+    <div class="row justify-content-between align-items-center"> 
+      <div class="col-6 my-4">
+        <a class="pe-2" href="https://twitter.com"><i class="fa-brands fa-twitter fa-xl"></i></a>
+        <a class="pe-2" href="https://instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
         <a href="https://facebook.com"><i class="fa-brands fa-facebook-square fa-xl"></i></a>
       </div>
-      <div class="col-md-4 d-flex justify-content-end fs-5 mx-3 my-4">
-        <span class="text-muted pe-3">&copy; 2022 Moqups</span>
+      <div class="col-6 d-flex justify-content-end fs-5 my-4">
+        <span class="text-muted">&copy; 2022 Moqups</span>
       </div>
     </div>
   </footer>
