@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+.hero-image {
+    /* "linear-gradient" adds a darken background effect to the image - makes text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/earth.jpg");
+    height: 500px; /*455px*/
+    /* Positions and centers the image to scale well on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header h1, header p {
+    text-shadow: 5px 0px 5px black;
+}
+
 .fa-brands {
     color: black;
 }
